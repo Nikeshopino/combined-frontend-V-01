@@ -1,0 +1,49 @@
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.price-table th,
+.price-table td {
+  padding: 10px;
+  text-align: left;
+  border: none;
+}
+
+.price-table th {
+  background-color: #f8f8f8;
+  font-weight: 600;
+  color: #333;
+}
+
+.price-table td {
+  position: relative;
+  height: 40px;
+  font-size: 16px;
+}
+
+.bar-cell {
+  position: relative;
+  padding-right: 10px; 
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  right: 0; 
+  height: 100%;
+  background-color: #D1FFEB; 
+  
+}
+
+.qty-text {
+  position: relative;
+  color: #333;
+  padding-right: 10px; 
+  text-align: right;
+}
+
+.price-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

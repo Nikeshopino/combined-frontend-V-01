@@ -1,0 +1,21 @@
+.custom-slider{
+   
+    -webkit-appearance: none;
+    background-color: #bb1717;
+    outline: none;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+.custom-slider::-webkit-slider-runnable-track {
+    height: 16px; /* Increased track height */
+  }
+  .custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default appearance */
+    width: 20px; /* Increased thumb width */
+    height: 20px; /* Increased thumb height */
+    background-color: #fff; /* Thumb color */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -2px;
+  }

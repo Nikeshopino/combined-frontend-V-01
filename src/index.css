@@ -1,0 +1,59 @@
+@import '@fontsource/inter/index.css';
+@import '@fontsource/montserrat/index.css';
+@import './reset.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .range-black::-webkit-slider-runnable-track {
+      background-color: black;
+      height: 12px; /* Adjust the track height */
+    }
+  
+    .range-black::-webkit-slider-thumb {
+      background-color: black;
+      border-radius: 9999px; /* Makes the thumb round */
+      height: 24px; /* Adjust the thumb size */
+      width: 24px;
+      -webkit-appearance: none;
+      margin-top: -6px; /* Align thumb with the track */
+    }
+  
+    .range-black::-moz-range-track {
+      background-color: black;
+      height: 12px;
+    }
+  
+    .range-black::-moz-range-thumb {
+      background-color: black;
+      border-radius: 9999px;
+      height: 24px;
+      width: 24px;
+      cursor: pointer;
+    }
+  
+    .range-black::-ms-track {
+      background-color: transparent;
+      border-color: transparent;
+      color: transparent;
+      height: 12px;
+    }
+  
+    .range-black::-ms-fill-lower {
+      background-color: black;
+    }
+  
+    .range-black::-ms-fill-upper {
+      background-color: black;
+    }
+  
+    .range-black::-ms-thumb {
+      background-color: black;
+      border-radius: 9999px;
+      height: 24px;
+      width: 24px;
+      cursor: pointer;
+    }
+    
+  }
